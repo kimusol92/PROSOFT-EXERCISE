@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PROSOFT EXERCISE</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <main>
+      <label for="txtDate">Date</label>
+      <input type="date" id="txtDate">
+      <label for="txtDays">Days</label>
+      <input type="number" min = 0 id="txtDays">
+      <label for="txtCountryCode">Country code</label>
+      <input type="text" id="txtCountryCode">
+      <input type="button" name="btnShowCalendar" value="Show calendar" onclick="renderCalendarTable()">
+      <table id="tblCalendar">
+        <thead>
+          <tr>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </main>
+    <script  src="../js/dateSpan.js"></script>
+    <script  src="../js/jquery-3.1.1.min.js"></script>
+  </body>
+</html>
